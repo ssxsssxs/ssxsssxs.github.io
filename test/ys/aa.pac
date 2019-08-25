@@ -18,7 +18,7 @@ var FindProxyForURL = function(init, profiles) {
 		    return "DIRECT;";
 		      break;
 		  case "https":
-		    return "HTTPS 107.170.118.36;HTTPS www.justproxy.io;HTTPS us21.tcdn.me;";
+		    return "HTTPS 107.170.118.36;HTTPS www.justproxy.io;";
 		      break;
           default:
 			return "DIRECT;";
