@@ -16,7 +16,7 @@ var FindProxyForURL = function(init, profiles) {
 		  case "ftp":
 		    return "DIRECT;";
 		  case "https":
-		    return "HTTPS 13.229.223.59;HTTPS www.cookietv.com;";
+		    return "HTTPS 107.170.118.36;HTTPS justproxy.io;";
           default:
 			return "DIRECT;";
         }
