@@ -18,7 +18,7 @@ var FindProxyForURL = function(init, profiles) {
 		    return "DIRECT;";
 		      break;
 		  case "https":
-		    return "HTTPS 107.170.118.36;HTTPS 103.214.142.178;HTTPS 103.214.142.178;HTTPS 103.214.141.28;HTTPS 103.214.141.50;HTTPS 103.214.141.60;HTTPS 103.214.141.138;"
+		    return "HTTPS 107.170.118.36;HTTPS 103.214.142.178;HTTPS 103.214.143.30;HTTPS 103.214.141.28;HTTPS 103.214.141.50;HTTPS 103.214.141.60;HTTPS 103.214.141.138;"
 		      break;
           default:
 			return "DIRECT;";
