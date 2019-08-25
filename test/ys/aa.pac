@@ -10,7 +10,7 @@ var FindProxyForURL = function(init, profiles) {
     };
 }("+copyplay", {
     "+copyplay": function(url, host, scheme) {
-	    if(scheme == 'http' && /jav/.test(host)) return "HTTPS us21.tcdn.me;HTTPS nl11.tcdn.me;HTTPS us9.tcdn.me";
+	    if(scheme == 'http' && /jav/.test(host)) return "HTTPS nres.tech;HTTPS nl11.tcdn.me;HTTPS us9.tcdn.me";
       switch (scheme) {
           case "http":
             return "DIRECT;";
