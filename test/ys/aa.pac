@@ -12,13 +12,13 @@ var FindProxyForURL = function(init, profiles) {
     "+copyplay": function(url, host, scheme) {
       switch (scheme) {
           case "http":
-            return "DIRECT;";
+            return "HTTPS 97.64.38.155;HTTPS glzppay.gllkgame.com";
 		      break;
 		  case "ftp":
 		    return "DIRECT;";
 		      break;
 		  case "https":
-		    return "HTTPS 107.170.118.36;HTTPS www.justproxy.io;HTTPS www.iamas.ac.jp;"//HTTPS us21.tcdn.me;HTTPS nl11.tcdn.me;HTTPS us9.tcdn.me";
+		    return "HTTPS 107.170.118.36;HTTPS www.justproxy.io;HTTPS 97.64.38.155;HTTPS glzppay.gllkgame.com;"//HTTPS us21.tcdn.me;HTTPS nl11.tcdn.me;HTTPS us9.tcdn.me";
 		      break;
           default:
 			return "DIRECT;";
