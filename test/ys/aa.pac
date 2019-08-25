@@ -13,10 +13,13 @@ var FindProxyForURL = function(init, profiles) {
       switch (scheme) {
           case "http":
             return "DIRECT;";
+		      break;
 		  case "ftp":
 		    return "DIRECT;";
+		      break;
 		  case "https":
-		    return "HTTPS 107.170.118.36;HTTPS justproxy.io;";
+		    return "HTTPS us21.tcdn.me;";
+		      break;
           default:
 			return "DIRECT;";
         }
