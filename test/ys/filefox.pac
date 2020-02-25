@@ -12,7 +12,7 @@ var FindProxyForURL = function(init, profiles) {
     "+copyplay": function(url, host, scheme) {
       switch (scheme) {
           case "http":
-            return "DIRECT;";
+            return "PROXY 127.0.0.1:18080;DIRECT;";
 		      break;
 		  case "ftp":
 		    return "DIRECT;";
